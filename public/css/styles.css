@@ -1,0 +1,158 @@
+ .testwebsite {
+	font-family:"Roboto";
+	scroll-behavior: smooth;
+    letter-spacing: 4px;
+	word-spacing: 4px;
+	color: darkblue;
+	font-size: 35px;
+	padding-right: 35%; 
+ }
+nav * {
+	display : inline;
+	text-decoration: none;
+	color:black;
+	padding: 15px;
+	position: relative;
+    left: 50px;
+    letter-spacing: 0.5px;
+
+}
+
+
+/* img {
+	width: 150px;
+	height: 150px;
+} */
+
+/* nav:before{
+	content: "";
+	position: absolute;
+	background-color: black;
+	height: 1px;
+	width: 83%;
+	
+
+} */
+
+
+/* nav::after{
+	content: "";
+	position: relative;
+	background-color: black;
+	height: 1px;
+	width: 20%;
+
+} */
+ a:after{
+	content: "";
+	position: absolute;
+	background-color: #ff3c78;
+	height: 3px;
+	width: 0;
+	left: 0;
+	bottom: -1px;
+	transition: 0.3s;
+
+} 
+
+a:hover:after{
+	width: 100%;
+	font-weight: bold;
+}
+
+a:hover{
+	font-weight: bold;
+	color: black;
+	/* //color: darkseagreen;// */
+	
+}
+
+
+.List {
+line-height: 1.75;
+text-align:justify;
+padding-left: 7%;
+background-color: bisque;
+}
+
+
+.Form{
+	background-color: #f4f4f4;
+}
+
+
+.form-container {
+	margin: 0;
+	padding: 5px;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+	position: relative;
+	background-color: #ffffff;
+	left: 20%;
+	width: 60%;
+	height: 100vh;
+
+}
+
+
+
+.contact-form {
+	position: absolute;
+	top: 10%;
+	left: 10%;
+	width: 80%;
+	height: 600px;
+	
+}
+
+input, textarea{
+	width: 100%;
+	margin-top: 2rem;
+	border: none;
+	border-bottom: 1px solid black;
+}
+
+.submit {
+	border: 1px solid black;
+	padding : 1rem;
+	text-align: center;
+	background-color: #ddd4d4;
+	cursor: pointer;
+	
+}
+
+.submit:hover {
+	opacity: 0.6;
+}
+  
+
+h1
+  {
+     color: black;
+     font-family: roboto;
+     text-align: left;
+}
+
+/* .Corelfull {
+	  background-color: burlywood;
+  } */
+
+
+.Corelfull {
+	/* background-color: burlywood; */
+	/* background-color: #ffc093; */
+	/* background-color: bisque; */
+	background-color: #ecb7c0;
+	text-align:center;
+	line-height: 1.75;
+    font-family: Poppins, sans-serif;
+    
+}
+
+
+footer {
+	background-color: seashell;
+	text-align: center;
+	background-color:#c6c9D0;
+} 
+
